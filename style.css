@@ -52,38 +52,6 @@ body{
 }
 
 
-
-.carousel-container {
-    overflow: hidden;
-    width: 80%;
-    max-width: 600px;
-}
-
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-item {
-    flex: 0 0 auto;
-    margin: 0 10px;
-    filter: grayscale(100%);
-    transition: filter 0.5s ease, transform 0.5s ease;
-}
-
-.carousel-item img {
-    width: 100%;
-}
-
-.carousel-item.focused {
-    filter: grayscale(0%);
-    transform: scale(1.2);
-}
-
-.carousel-item:hover {
-    cursor: pointer;
-}
-
 .customBtn{
     background-color: var(--bs-purple);
     color: var(--bs-white);
